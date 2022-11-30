@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(#b92b27, #1565C0);
+    color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.alert-bg {
+    background-color: #f15c57;
+    margin-top: 1rem;
+    padding: .5rem;
+    border: 1px solid rgb(163, 3, 3);
+    display: none;
+}
+
+.login {
+    width: 90%;
+    text-align: center;
+}
+
+input,
+button,
+select {
+    width: 100%;
+    height: 2rem;
+    margin-top: .7rem
+}
+
+.mybtn {
+    border: none;
+    color: white;
+    background-color: peru;
+}
+
+.islem {
+    width: 90%;
+    display: none;
+    text-align: center;
+}
+
+.sifreUnut {
+    text-align: center;
+    display: none;
+}
+
+.krediVade{
+    display:none;
+}
